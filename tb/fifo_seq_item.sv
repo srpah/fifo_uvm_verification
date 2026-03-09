@@ -1,3 +1,5 @@
+import uvm_pkg::*;
+`include "uvm_macros.svh"
 class fifo_seq_item extends uvm_sequence_item;
 
 rand bit wr_en;

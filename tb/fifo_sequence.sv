@@ -14,7 +14,7 @@ repeat(20)
 begin
    req = fifo_seq_item::type_id::create("req");
    start_item(req);
-   req.randomize();
+   assert(req.randomize());
    finish_item(req);
 end
 
